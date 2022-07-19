@@ -2,6 +2,9 @@
 	"name": "fcc-learn-npm-package-json",
 	"author": "ale vargas",
 	"description": "a boiler plate of npm",
+	"SemVerLink": "https://docs.npmjs.com/about-semantic-versioning",
+	"~": "update to patch releases",
+	"^": "update to minor releases",
 	"keywords": [
 		"freecodecamp",
 		"boilerplate",
@@ -11,7 +14,7 @@
 	"version": "1.0.0",
 	"dependencies": {
     "moment": "^2.10.2",
-		"express": "^4.14.0"
+	"express": "^4.14.0"
 	},
 	"main": "server.js",
 	"scripts": {
